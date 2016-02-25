@@ -1,0 +1,76 @@
+
+-ENTIDADE
+
+Campos  : Posição, rotação,escala.
+Métodos : Colisão
+
+
+
+
+
+
+-ITEM : ENTIDADE					
+
+Campos:  Peso, nome.
+métodos: Pegar, Descartar.
+
+
+
+-ARMA : ITEM
+
+Campos:  .
+métodos: atacar
+
+
+
+-ESPADA : ARMA					
+
+Campos: velocidade, dano, durabilidade.
+Métodos: atacar
+
+
+
+-ESCUDO: ARMA
+
+Campos:  reflexão.
+métodos: Defender.
+
+
+
+
+
+
+
+
+
+
+-PERSONAGEM : ENTIDADE
+
+Campos: vida.
+Métodos: movimentar-se.
+
+
+
+-NPC : PERSONAGEM
+
+Campos: ''
+Métodos: interagir
+
+
+
+-INIMIGO : PERSONAGEM
+
+Campos:  dano.
+Métodos: atacar, defender.
+
+
+
+
+-JOGADOR : PERSONAGEM
+
+Campos:  dano base.
+Métodos: abaixar, pular, rolar,usar item.
+
+
+
+
